@@ -1,0 +1,73 @@
+body{
+    margin:0px;
+    background-image: url("/img/1.png");
+    background-attachment: scroll;
+}
+header{
+    background-color: rgb(21, 21, 212);
+    max-width:auto;
+    padding:10px;
+}
+.pesquisa{
+    background-color: rgb(231, 156, 15);
+    width:400px;
+    height:30px;
+    border-radius: 15px;
+    padding:8px;
+}
+.cP{
+    display:flex;
+    max-width: 100%;
+    height:600px;
+}
+.subC{
+    height: 700px;
+    max-width: 300px;
+    background-color: aqua;
+}
+.lisEst{
+    color:rgb(87,34,9);
+    background-color: orange;
+    padding:10px;
+    border:2px solid;
+}
+.lisEst:hover{
+    color:rgb(230, 177, 177);
+    background-color: rgb(37, 10, 110);
+}
+a,ul{
+    text-decoration: none;
+    list-style: none;
+}
+/*li{
+    color:rgb(87, 34, 9);
+    padding:10px;
+    border: 2px solid;
+    background-color: orange;
+}
+li:hover{
+    background-color: rgb(37, 10, 110);
+    color:rgb(231, 156, 15);
+}*/
+
+.contEs{
+    width:200px;
+    background-color: rgb(159, 104, 211);
+    height:600px;
+}
+.cRodape{
+    background-color: rgb(21, 21, 212);
+    padding:17px;
+    margin:0px;
+    height:100%;
+}
+.rodape{
+    color: rgb(17, 25, 31);
+    background-color: rgb(44, 124, 194);
+    width:200px;
+    height: 200px;
+    text-align: left;
+}
+#bookRod{
+    object-position: left - bottom;
+}
